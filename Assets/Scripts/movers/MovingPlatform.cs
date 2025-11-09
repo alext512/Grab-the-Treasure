@@ -48,8 +48,8 @@ public class MovingPlatform : MonoBehaviour
     }
 
     private void movePlayerAlong() {
-        Vector2 CurrentPlayerV = player.GetComponent<Rigidbody2D>().velocity;
-        Vector2 CurrentPlatformV = MovingPlatformRigidBody.velocity;
+        Vector2 CurrentPlayerV = player.GetComponent<Rigidbody2D>().linearVelocity;
+        Vector2 CurrentPlatformV = MovingPlatformRigidBody.linearVelocity;
 
 
         

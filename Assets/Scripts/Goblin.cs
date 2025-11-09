@@ -27,7 +27,7 @@ public class Goblin : MonoBehaviour {
         killable = true;
         if (!facingRight)
         {
-            transform.localScale = new Vector2(-(Mathf.Sign(goblinRigidBody.velocity.x)), 1f);
+            transform.localScale = new Vector2(-(Mathf.Sign(goblinRigidBody.linearVelocity.x)), 1f);
         }
 
     }
@@ -54,7 +54,7 @@ public class Goblin : MonoBehaviour {
             Destroy(goblinCollider);
             Destroy(gameObject, 1f);
 
-            goblinRigidBody.velocity = new Vector2(goblinRigidBody.velocity.x, 5f);
+            goblinRigidBody.linearVelocity = new Vector2(goblinRigidBody.linearVelocity.x, 5f);
 
         }
     }
@@ -69,14 +69,14 @@ public class Goblin : MonoBehaviour {
         {
             goblinVelocity = new Vector2(-goblinSpeed, 0f);
         }
-        goblinRigidBody.velocity = goblinVelocity;
+        goblinRigidBody.linearVelocity = goblinVelocity;
     }
 
     private void Flip()
     {
         if (noseCollider.IsTouchingLayers(LayerMask.GetMask("Foreground")))
         {
-            transform.localScale = new Vector2(-(Mathf.Sign(goblinRigidBody.velocity.x)), 1f);
+            transform.localScale = new Vector2(-(Mathf.Sign(goblinRigidBody.linearVelocity.x)), 1f);
         }
     }
 

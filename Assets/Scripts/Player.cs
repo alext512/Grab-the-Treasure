@@ -95,9 +95,9 @@ public class Player : MonoBehaviour {
             HazardKill();
         }
 
-        if (myRigidBody.velocity.y < -maxDownwardsSpeed) {
+        if (myRigidBody.linearVelocity.y < -maxDownwardsSpeed) {
             //myRigidBody.velocity.y = maxDownwardsSpeed;
-            myRigidBody.velocity = new Vector2 (myRigidBody.velocity.x, -maxDownwardsSpeed);// maxDownwardsSpeed);
+            myRigidBody.linearVelocity = new Vector2 (myRigidBody.linearVelocity.x, -maxDownwardsSpeed);// maxDownwardsSpeed);
         }
         //if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId) ||
     //EventSystem.current.IsPointerOverGameObject()) {
@@ -117,7 +117,7 @@ public class Player : MonoBehaviour {
 
     public void PlatformMovement()
     {
-        if (standStill&& myRigidBody.velocity != platformSpeed)
+        if (standStill&& myRigidBody.linearVelocity != platformSpeed)
         {
             //myRigidBody.velocity = platformSpeed;
 
@@ -131,16 +131,16 @@ public class Player : MonoBehaviour {
 
         if (IsFacingRight())
         {
-            playerVelocity = new Vector2(runSpeed, myRigidBody.velocity.y);
+            playerVelocity = new Vector2(runSpeed, myRigidBody.linearVelocity.y);
             
         }
         else {
-            playerVelocity = new Vector2(-runSpeed, myRigidBody.velocity.y);
+            playerVelocity = new Vector2(-runSpeed, myRigidBody.linearVelocity.y);
         }
         playerVelocity = new Vector2(playerVelocity.x + platformSpeed.x, playerVelocity.y);
         //Vector2 playerVelocity = new Vector2(runSpeed, myRigidBody.velocity.y);
 
-        myRigidBody.velocity = playerVelocity;
+        myRigidBody.linearVelocity = playerVelocity;
 
         myAnimator.SetBool("Running", true);
 
@@ -186,7 +186,7 @@ public class Player : MonoBehaviour {
             alive = false;
             myAnimator.SetTrigger("Death");
             deathSound.Play();
-            myRigidBody.velocity = new Vector2(-myRigidBody.velocity.x, deathkick);
+            myRigidBody.linearVelocity = new Vector2(-myRigidBody.linearVelocity.x, deathkick);
             //Destroy(gameObject, 1f);
             Invoke("LoadSameLevel", 1);
         } 
@@ -197,7 +197,7 @@ public class Player : MonoBehaviour {
             if (myRigidBody.IsTouchingLayers(LayerMask.GetMask("Chest")))
             {
                 win = true;
-                myRigidBody.velocity = new Vector2(0f, 0f);
+                myRigidBody.linearVelocity = new Vector2(0f, 0f);
                 return true;
 
                 //FindObjectOfType<GameSession>().ResetCoinsPicked();
@@ -265,7 +265,7 @@ public class Player : MonoBehaviour {
             if (jumpTimeCounter > 0)
             {
                 
-                myRigidBody.velocity = new Vector2(myRigidBody.velocity.x, jumpSpeed);
+                myRigidBody.linearVelocity = new Vector2(myRigidBody.linearVelocity.x, jumpSpeed);
                 jumpTimeCounter -= 1; //Time.deltaTime;
 
             }
@@ -286,7 +286,7 @@ public class Player : MonoBehaviour {
     {
         //   Vector2 jumpVelocityToAdd = new Vector2(0f, jumpSpeed);
         SetJumpTrue();
-        myRigidBody.velocity = new Vector2(myRigidBody.velocity.x, jumpSpeed);
+        myRigidBody.linearVelocity = new Vector2(myRigidBody.linearVelocity.x, jumpSpeed);
         isJumping = true;
         jumpTimeCounter = jumpTime;
         if (doubleJump)
@@ -328,10 +328,10 @@ public class Player : MonoBehaviour {
 
             myAnimator.SetBool("WallSlide", true);
             doubleJump = true;
-            if (myRigidBody.velocity.y < -(maxDownwardsSpeed) / 4)
+            if (myRigidBody.linearVelocity.y < -(maxDownwardsSpeed) / 4)
             {
                 //myRigidBody.velocity.y = maxDownwardsSpeed;
-                myRigidBody.velocity = new Vector2(myRigidBody.velocity.x, -maxDownwardsSpeed / 4);// maxDownwardsSpeed);
+                myRigidBody.linearVelocity = new Vector2(myRigidBody.linearVelocity.x, -maxDownwardsSpeed / 4);// maxDownwardsSpeed);
             }
 
             if (Inputs.InputPressed())

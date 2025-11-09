@@ -23,11 +23,11 @@ public class Bars : MonoBehaviour {
 
     public void OpenBars() {
 
-        barRigidBody.velocity = new Vector2(0f, barOpenSpeed);
+        barRigidBody.linearVelocity = new Vector2(0f, barOpenSpeed);
         Invoke("StopBars", openTime);
     }
     public void StopBars() {
-        barRigidBody.velocity = new Vector2(0f, 0f);
+        barRigidBody.linearVelocity = new Vector2(0f, 0f);
 
     }
 

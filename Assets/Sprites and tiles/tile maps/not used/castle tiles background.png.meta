@@ -1,24 +1,54 @@
 fileFormatVersion: 2
 guid: af9164201d1bc014da16bf1d81aa62ce
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: castle tiles background_0
-    21300002: castle tiles background_1
-    21300004: castle tiles background_2
-    21300006: castle tiles background_3
-    21300008: castle tiles background_4
-    21300010: castle tiles background_5
-    21300012: castle tiles background_6
-    21300014: castle tiles background_7
-    21300016: castle tiles background_8
-    21300018: castle tiles background_9
-    21300020: castle tiles background_10
-    21300022: castle tiles background_11
-    21300024: castle tiles background_12
-    21300026: castle tiles background_13
-    21300028: castle tiles background_14
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: castle tiles background_0
+  - first:
+      213: 21300002
+    second: castle tiles background_1
+  - first:
+      213: 21300004
+    second: castle tiles background_2
+  - first:
+      213: 21300006
+    second: castle tiles background_3
+  - first:
+      213: 21300008
+    second: castle tiles background_4
+  - first:
+      213: 21300010
+    second: castle tiles background_5
+  - first:
+      213: 21300012
+    second: castle tiles background_6
+  - first:
+      213: 21300014
+    second: castle tiles background_7
+  - first:
+      213: 21300016
+    second: castle tiles background_8
+  - first:
+      213: 21300018
+    second: castle tiles background_9
+  - first:
+      213: 21300020
+    second: castle tiles background_10
+  - first:
+      213: 21300022
+    second: castle tiles background_11
+  - first:
+      213: 21300024
+    second: castle tiles background_12
+  - first:
+      213: 21300026
+    second: castle tiles background_13
+  - first:
+      213: 21300028
+    second: castle tiles background_14
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -35,9 +65,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -46,9 +79,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -69,11 +102,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -83,8 +122,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -94,8 +135,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -105,8 +148,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -116,7 +161,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -131,11 +178,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: ec11568aab241a044baa2fd68bad17f3
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -151,11 +200,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: c049f92d5f176f8449e10d2172dadd30
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -171,11 +222,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 58de31a1995c5134abfe036cf7896910
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -191,11 +244,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 784c2a083ec7909459591e7434dbeb30
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -211,11 +266,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 457cdf04e9fe7f044a4501a069194c67
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -231,11 +288,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 6e3b6bcca3121dd468e4362a580f3da9
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -251,11 +310,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: efe98a851dda6a64abec7527e44c773e
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -271,11 +332,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 48f07a1c60315e943bcd7bad38e9f5e7
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -291,11 +354,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: b2eea3f051f057640b13529ddda0a55a
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -311,11 +376,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 3489e956cae39174b80fd094fe2ffb45
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -331,11 +398,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: dff73a5c78c1c434e95b9856fb21d782
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -351,11 +420,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: f1ff9baa76c189445ba43ca8f8a2acc9
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -371,11 +442,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: e8875fe86234b9a48947dc6b3a5f9842
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
@@ -391,11 +464,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 91a12603f1e22854b9804a4ddff96b0c
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
@@ -411,26 +486,48 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: d5354e49104aac846b60c3b37cac859a
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 9270f57e54cab4f4ea60945d5d0c0952
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      castle tiles background_0: 21300000
+      castle tiles background_1: 21300002
+      castle tiles background_10: 21300020
+      castle tiles background_11: 21300022
+      castle tiles background_12: 21300024
+      castle tiles background_13: 21300026
+      castle tiles background_14: 21300028
+      castle tiles background_2: 21300004
+      castle tiles background_3: 21300006
+      castle tiles background_4: 21300008
+      castle tiles background_5: 21300010
+      castle tiles background_6: 21300012
+      castle tiles background_7: 21300014
+      castle tiles background_8: 21300016
+      castle tiles background_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

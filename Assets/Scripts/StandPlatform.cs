@@ -70,7 +70,7 @@ public class StandPlatform : MonoBehaviour {
             //applied = true;
             //print("touched");
             player.GetComponent<Player>().standStill = true;
-            player.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
+            player.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0f, 0f);
 
             standStillLocal = true;
             FlipPlayer();

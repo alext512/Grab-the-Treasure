@@ -9,7 +9,7 @@ Avoid obstacles, collect coins, and reach the treasure chest to complete each le
 - Click on the screen to select a level.
 
 ## Unity Version
-- **v2019.1.3f1**
+- **v6000.2.10f1**
 
 ## Licenses
 
@@ -45,7 +45,7 @@ Music and sound effect tracks used in this project are CC0 and sourced from:
 
 
 ## Requirements
-- Unity 2019.1.3f1
+- Unity 6000.2.10f1
 
 ---
 
