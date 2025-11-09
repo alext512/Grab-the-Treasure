@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - player
+  - gameSession
+  - scoreTag
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Foreground
+  - Enemy
+  - Lever
+  - Bars
+  - StandStillPlatform
+  - Background
+  - Chest
+  - Hazards
+  - Crumbling
+  - Platform Controllers
+  - Moving Platform
+  - Signs
+  - Interactables
+  - DownButton
+  - UpButton
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3116527733
+    locked: 0
+  - name: Moving Platform3
+    uniqueID: 373977401
+    locked: 0
+  - name: Moving Platform2
+    uniqueID: 1655040135
+    locked: 0
+  - name: Moving Platform1
+    uniqueID: 2056689989
+    locked: 0
+  - name: Hazards
+    uniqueID: 3964947917
+    locked: 0
+  - name: Extras
+    uniqueID: 4118904609
+    locked: 0
+  - name: Interactables
+    uniqueID: 188917963
+    locked: 0
+  - name: Chest
+    uniqueID: 1715978797
+    locked: 0
+  - name: Bars
+    uniqueID: 759500979
+    locked: 0
+  - name: Foreground
+    uniqueID: 875435041
+    locked: 0
+  - name: Crumbling
+    uniqueID: 3486514429
+    locked: 0
+  - name: StandStillPlatform
+    uniqueID: 1650670375
+    locked: 0
+  - name: Player
+    uniqueID: 4114559871
+    locked: 0
+  - name: Enemy
+    uniqueID: 3671637897
+    locked: 0
+  - name: Lever
+    uniqueID: 425405911
+    locked: 0
+  - name: Platform Controllers
+    uniqueID: 3683421475
+    locked: 0
+  - name: Signs
+    uniqueID: 2562683655
+    locked: 0
+  - name: Decors
+    uniqueID: 442011057
+    locked: 0
+  - name: Extras2
+    uniqueID: 431482387
+    locked: 0
+  - name: LevelSelectionGroup
+    uniqueID: 3537050165
+    locked: 0
+  - name: LevelSelectionButton
+    uniqueID: 102685577
+    locked: 0

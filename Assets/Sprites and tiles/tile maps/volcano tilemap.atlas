@@ -1,0 +1,347 @@
+volcano tilemap.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+volcano tilemap-0x0
+  rotate: false
+  xy: 1, 1
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-0x1
+  rotate: false
+  xy: 19, 1
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-0x2
+  rotate: false
+  xy: 37, 1
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-0x3
+  rotate: false
+  xy: 55, 1
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-0x4
+  rotate: false
+  xy: 73, 1
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-0x5
+  rotate: false
+  xy: 91, 1
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-0x6
+  rotate: false
+  xy: 109, 1
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-1x0
+  rotate: false
+  xy: 1, 19
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-1x1
+  rotate: false
+  xy: 19, 19
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-1x2
+  rotate: false
+  xy: 37, 19
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-1x3
+  rotate: false
+  xy: 55, 19
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-1x4
+  rotate: false
+  xy: 73, 19
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-1x5
+  rotate: false
+  xy: 91, 19
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-1x6
+  rotate: false
+  xy: 109, 19
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-2x0
+  rotate: false
+  xy: 1, 37
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-2x1
+  rotate: false
+  xy: 19, 37
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-2x2
+  rotate: false
+  xy: 37, 37
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-2x3
+  rotate: false
+  xy: 55, 37
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-2x4
+  rotate: false
+  xy: 73, 37
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-2x5
+  rotate: false
+  xy: 91, 37
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-2x6
+  rotate: false
+  xy: 109, 37
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-3x0
+  rotate: false
+  xy: 1, 55
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-3x1
+  rotate: false
+  xy: 19, 55
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-3x2
+  rotate: false
+  xy: 37, 55
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-3x3
+  rotate: false
+  xy: 55, 55
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-3x4
+  rotate: false
+  xy: 73, 55
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-3x5
+  rotate: false
+  xy: 91, 55
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-3x6
+  rotate: false
+  xy: 109, 55
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-4x0
+  rotate: false
+  xy: 1, 73
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-4x1
+  rotate: false
+  xy: 19, 73
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-4x2
+  rotate: false
+  xy: 37, 73
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-4x3
+  rotate: false
+  xy: 55, 73
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-4x4
+  rotate: false
+  xy: 73, 73
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-4x5
+  rotate: false
+  xy: 91, 73
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-4x6
+  rotate: false
+  xy: 109, 73
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-5x0
+  rotate: false
+  xy: 1, 91
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-5x1
+  rotate: false
+  xy: 19, 91
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-5x2
+  rotate: false
+  xy: 37, 91
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-5x3
+  rotate: false
+  xy: 55, 91
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-5x4
+  rotate: false
+  xy: 73, 91
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-5x5
+  rotate: false
+  xy: 91, 91
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-5x6
+  rotate: false
+  xy: 109, 91
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-6x0
+  rotate: false
+  xy: 1, 109
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-6x1
+  rotate: false
+  xy: 19, 109
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-6x2
+  rotate: false
+  xy: 37, 109
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-6x3
+  rotate: false
+  xy: 55, 109
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-6x4
+  rotate: false
+  xy: 73, 109
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-6x5
+  rotate: false
+  xy: 91, 109
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1
+volcano tilemap-6x6
+  rotate: false
+  xy: 109, 109
+  size: 16, 16
+  orig: 16, 16
+  soffset: 0, 0
+  index: -1

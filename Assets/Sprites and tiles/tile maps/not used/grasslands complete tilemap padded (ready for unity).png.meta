@@ -1,0 +1,1757 @@
+fileFormatVersion: 2
+guid: 79a2ab68898988b4fad68dcef69c41c8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: grasslands complete tilemap padded (ready for unity)_0
+    21300002: grasslands complete tilemap padded (ready for unity)_1
+    21300004: grasslands complete tilemap padded (ready for unity)_2
+    21300006: grasslands complete tilemap padded (ready for unity)_3
+    21300008: grasslands complete tilemap padded (ready for unity)_4
+    21300010: grasslands complete tilemap padded (ready for unity)_5
+    21300012: grasslands complete tilemap padded (ready for unity)_6
+    21300014: grasslands complete tilemap padded (ready for unity)_7
+    21300016: grasslands complete tilemap padded (ready for unity)_8
+    21300018: grasslands complete tilemap padded (ready for unity)_9
+    21300020: grasslands complete tilemap padded (ready for unity)_10
+    21300022: grasslands complete tilemap padded (ready for unity)_11
+    21300024: grasslands complete tilemap padded (ready for unity)_12
+    21300026: grasslands complete tilemap padded (ready for unity)_13
+    21300028: grasslands complete tilemap padded (ready for unity)_14
+    21300030: grasslands complete tilemap padded (ready for unity)_15
+    21300032: grasslands complete tilemap padded (ready for unity)_16
+    21300034: grasslands complete tilemap padded (ready for unity)_17
+    21300036: grasslands complete tilemap padded (ready for unity)_18
+    21300038: grasslands complete tilemap padded (ready for unity)_19
+    21300040: grasslands complete tilemap padded (ready for unity)_20
+    21300042: grasslands complete tilemap padded (ready for unity)_21
+    21300044: grasslands complete tilemap padded (ready for unity)_22
+    21300046: grasslands complete tilemap padded (ready for unity)_23
+    21300048: grasslands complete tilemap padded (ready for unity)_24
+    21300050: grasslands complete tilemap padded (ready for unity)_25
+    21300052: grasslands complete tilemap padded (ready for unity)_26
+    21300054: grasslands complete tilemap padded (ready for unity)_27
+    21300056: grasslands complete tilemap padded (ready for unity)_28
+    21300058: grasslands complete tilemap padded (ready for unity)_29
+    21300060: grasslands complete tilemap padded (ready for unity)_30
+    21300062: grasslands complete tilemap padded (ready for unity)_31
+    21300064: grasslands complete tilemap padded (ready for unity)_32
+    21300066: grasslands complete tilemap padded (ready for unity)_33
+    21300068: grasslands complete tilemap padded (ready for unity)_34
+    21300070: grasslands complete tilemap padded (ready for unity)_35
+    21300072: grasslands complete tilemap padded (ready for unity)_36
+    21300074: grasslands complete tilemap padded (ready for unity)_37
+    21300076: grasslands complete tilemap padded (ready for unity)_38
+    21300078: grasslands complete tilemap padded (ready for unity)_39
+    21300080: grasslands complete tilemap padded (ready for unity)_40
+    21300082: grasslands complete tilemap padded (ready for unity)_41
+    21300084: grasslands complete tilemap padded (ready for unity)_42
+    21300086: grasslands complete tilemap padded (ready for unity)_43
+    21300088: grasslands complete tilemap padded (ready for unity)_44
+    21300090: grasslands complete tilemap padded (ready for unity)_45
+    21300092: grasslands complete tilemap padded (ready for unity)_46
+    21300094: grasslands complete tilemap padded (ready for unity)_47
+    21300096: grasslands complete tilemap padded (ready for unity)_48
+    21300098: grasslands complete tilemap padded (ready for unity)_49
+    21300100: grasslands complete tilemap padded (ready for unity)_50
+    21300102: grasslands complete tilemap padded (ready for unity)_51
+    21300104: grasslands complete tilemap padded (ready for unity)_52
+    21300106: grasslands complete tilemap padded (ready for unity)_53
+    21300108: grasslands complete tilemap padded (ready for unity)_54
+    21300110: grasslands complete tilemap padded (ready for unity)_55
+    21300112: grasslands complete tilemap padded (ready for unity)_56
+    21300114: grasslands complete tilemap padded (ready for unity)_57
+    21300116: grasslands complete tilemap padded (ready for unity)_58
+    21300118: grasslands complete tilemap padded (ready for unity)_59
+    21300120: grasslands complete tilemap padded (ready for unity)_60
+    21300122: grasslands complete tilemap padded (ready for unity)_61
+    21300124: grasslands complete tilemap padded (ready for unity)_62
+    21300126: grasslands complete tilemap padded (ready for unity)_63
+    21300128: grasslands complete tilemap padded (ready for unity)_64
+    21300130: grasslands complete tilemap padded (ready for unity)_65
+    21300132: grasslands complete tilemap padded (ready for unity)_66
+    21300134: grasslands complete tilemap padded (ready for unity)_67
+    21300136: grasslands complete tilemap padded (ready for unity)_68
+    21300138: grasslands complete tilemap padded (ready for unity)_69
+    21300140: grasslands complete tilemap padded (ready for unity)_70
+    21300142: grasslands complete tilemap padded (ready for unity)_71
+    21300144: grasslands complete tilemap padded (ready for unity)_72
+    21300146: grasslands complete tilemap padded (ready for unity)_73
+    21300148: grasslands complete tilemap padded (ready for unity)_74
+    21300150: grasslands complete tilemap padded (ready for unity)_75
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1158
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f59dd65b6f8c1d4b9e4e37d0e6fec85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1158
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb9a5f107c61234b8af074d92b72432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1158
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7edd79a7f2d7704394d5a0f43aa8eec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1158
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c46c80e4c1b0140bf7f0d012b96852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1158
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46129e4319096541a19c14eda3bdd9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1158
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97ab0f09d806c3469733972effac704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1158
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848e679560cf4da41b906ed859ad058f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_7
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1158
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3160e0b98ea124297a29cf313b1d38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1090
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996e087ceacd2064e846e031096188b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1090
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562193e0b48d99c4eac1884931edae05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1090
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44adc081dba6a944db967c6f388b5f20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1090
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb837081f7ce784f81f710ce9a6663e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_12
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1090
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae389af15232e554e8e1ba186e1ca25b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1090
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7a0e1dab221d24b84eff64ed73db1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_14
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1090
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a1037a8620b204abd448b6045af80c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_15
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1090
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4ad49da394bed46b49bc03637c6ba6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081a2674fe1fce94fb443345ffe92cd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d525b5e05428c44b1233788d35ce26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1629b367c040f41b03d506709638fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_19
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814b9626077721443a5b17543b5f4dde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_20
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3ed85cbd7442b4d99d19537710a1d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_21
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f99a316981be0e4f8ed0256e21d06af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_22
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8f8c050da28fb49985507004d68fcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_23
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cf23658c3c1da42a4c8ed1dc70d1be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 954
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3f5f2315ecb594faa2ec3e9ae2f52b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 954
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af73ecc725b00d42987fd358bc4eaea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 954
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3de222891e086418e57bed2dc4e25e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 954
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ac5de36e216114b87783a802114765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_28
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 954
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24f691af1e883f4bace1932d8a8428c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_29
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 954
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e562620663b0744aa540d9f12817259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_30
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 954
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a2fb5ed31a7aa44ab1443f9b9b4c7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_31
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 954
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81014e4462c97654295d7f620bab89cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 886
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100bc50e418346b4c8eed7a854db86a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 886
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e380c11a6dc223246b71fc5470a74311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_34
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 886
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240b0b7d8511b7c459414d1115a4b3cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_35
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 886
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d8fb77e39ce7647b7b470234188a50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_36
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 886
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3be5b9f65603e64280424ed73add407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_37
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 886
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a275df18cf5be54ea201c24f5f1454f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_38
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 886
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5be2b3a5634aee4aa8d17a2288d353b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_39
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 886
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36796b7a71cc454ab7154beb506f26e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 818
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee89dd59bb2213440a98a224f333f389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_41
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 818
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a474dff70ac0fa44383da7a2994aefef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_42
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 818
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5c5dca10404ad40b6ae92d6b55589f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_43
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 818
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8be396b4b8fcb4d807fa4059be790a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_44
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 818
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956da8646bca12e4595c7b0fc2213d89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_45
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 818
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586dad3b4200ec046b1eff8d958c9058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_46
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 818
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2947c73ebcb75b42b79692b5c3459ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_47
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 818
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50327b72706327046a4c7f71190b9e23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 750
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528175af579acf440b46925c7a105c60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_49
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 750
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f3ca3f4b3492744aa095d153a0d709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_50
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 750
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c877d38b2f3a114483ee3d10c6a60ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_51
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 750
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4165fc07d5daf4c80529d31852ae0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_52
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 750
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7f98279d1c5c94a86ea1a4671c4da9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_53
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 750
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b8f16269b36fa4b97fa76075d22c16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_54
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 750
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809f13e43cd61f6428b8051693e71d34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_55
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 750
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f31529afc344b34d948134125ad6601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ade0fee4fcb5ce438b4b2cb0388f067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_57
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e9200d50364db4ea0a0df0e978f1d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_58
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedf1336a03b4ef49a803247b787557f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_59
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa863d88c0ba85b43816aeaa184f87f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_60
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b281ec787554ca4b89cdb1817595d17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_61
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fa57b07cc855b4483910a8ca22eb86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_62
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b006242dde7e0d499765a8bf11826d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_63
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b354dd3ebc1844099fd950c70acaf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 614
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -28}
+        - {x: -28, y: 32}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 689a1435d472e2c4a9da20b93d0cc0a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_65
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 614
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -28}
+        - {x: -28, y: 32}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 7ee390a00101b0f4d86b560260db929c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_66
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 614
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 28, y: 32}
+        - {x: -32, y: -28}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 1
+      bones: []
+      spriteID: d416cb561f364314f8f621d2feb1baab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_67
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 614
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 28, y: 32}
+        - {x: -32, y: -28}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 1
+      bones: []
+      spriteID: b543edfb00141924b9411f79be4f8b83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_68
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb6d6270130f01469555bb77c73c894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_69
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccb1cca9b639754db2bd02d309f9272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_70
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9b460e491ec724ab1ac3881442c924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_71
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 546
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c9655c88ba52f4fb62f2e17d4fca4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_72
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 478
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -28}
+        - {x: -28, y: 32}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 3ba4b9284c92e4545b8e413749dbca0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_73
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 478
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -28}
+        - {x: -28, y: 32}
+      tessellationDetail: 1
+      bones: []
+      spriteID: b1dce23d8d1317943bc51d662103deb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_74
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 478
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 28, y: 32}
+        - {x: -32, y: -28}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 1
+      bones: []
+      spriteID: d1c8d177dacb01c44bf8cfee976b141f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grasslands complete tilemap padded (ready for unity)_75
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 478
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 28, y: 32}
+        - {x: -32, y: -28}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 1
+      bones: []
+      spriteID: e2ae681369acf7944a23703e11b01640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 10d5644887ee436499c5e13cc867a29c
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
