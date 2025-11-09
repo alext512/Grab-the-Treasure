@@ -9,7 +9,6 @@ public class Inputs : MonoBehaviour {
     public static bool InputPressed() {
         if (CrossPlatformInputManager.GetButtonDown("Jump"))
         {
-
             return true;
             
         }

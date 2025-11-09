@@ -257,7 +257,6 @@ public class Player : MonoBehaviour {
     {
         myAnimator.SetTrigger("Jump"); //probably need to reset the trigger
         myAnimator.SetBool("JumpBool", true);
-        print("d jump");
     }//for invoke
 
     private void jumpKeepPressed() {
@@ -278,8 +277,6 @@ public class Player : MonoBehaviour {
             isJumping = false;
 
         }
-        print(jumpTimeCounter);
-        print(isJumping);
     }
 
     public void PerformJump(bool doubleJump)
