@@ -45,6 +45,7 @@ public class Player : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        
         score = 0;
         if (startWithFlip) {
             IsFlipping();
