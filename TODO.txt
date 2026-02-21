@@ -1,1 +1,6 @@
-Replace GameSession
+[High] Consolidate scene loading into one SceneLoader service
+[High] Unify score/lives ownership (GameSession vs Chest)
+[High] Remove FindObjectOfType/GameObject.FindWithTag lookups from gameplay path
+[Medium] Remove debug print/commented dead code across scripts
+[Medium] Replace PlayerPrefs.DeleteAll with scoped key reset + version key
+[Medium] Add Unity playmode/editmode tests for level completion + score persistence
