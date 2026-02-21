@@ -1,47 +1,32 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityEngine.EventSystems;
 
-public class Inputs : MonoBehaviour {
-
-    public static bool InputPressed() {
+public class Inputs : MonoBehaviour
+{
+    /// <summary>
+    /// Centralized jump intent check for keyboard, controller and touch/mouse.
+    /// UI clicks/touches are ignored so gameplay input does not leak through menus.
+    /// </summary>
+    public static bool InputPressed()
+    {
         if (CrossPlatformInputManager.GetButtonDown("Jump"))
         {
             return true;
-            
         }
-        else if (Input.GetMouseButtonDown(0))// && Input.mousePosition.x > Screen.width / 2))
+
+        if (!Input.GetMouseButtonDown(0))
         {
-
-            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
-            {
-                if (EventSystem.current.currentSelectedGameObject == null) //!EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId) && 
-                {
-
-                    return true;
-                }
-                else
-                {
-
-                    return false;
-                }
-            }
-            else if (EventSystem.current.currentSelectedGameObject == null) //!EventSystem.current.IsPointerOverGameObject() && 
-            {
-
-                return true;
-            }
-            else
-            {
-
-                return false;
-            }
-        }
-        else {
-
             return false;
         }
+
+        // For touch devices, only accept a fresh touch that is not over a selected UI object.
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        {
+            return EventSystem.current.currentSelectedGameObject == null;
         }
+
+        // Mouse fallback path.
+        return EventSystem.current.currentSelectedGameObject == null;
     }
+}
