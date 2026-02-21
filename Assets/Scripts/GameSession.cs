@@ -1,115 +1,100 @@
-﻿using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
-// GAME SESSION: Exists only in gameplay levels.
-// Keeps track of score/lives and persists between level scenes.
-public class GameSession : MonoBehaviour
-{
+//GAME SESSION: Exists only at levels. Keeps track of score and lives. Loads menu if lives are 0.
+
+public class GameSession : MonoBehaviour {
+
     [SerializeField] int playerLives = 3;
     [SerializeField] int coins = 0;
 
     [SerializeField] Text livesText;
     [SerializeField] Text coinsText;
-
     int coinsPicked = 0;
+    GameObject go;
 
-    void Awake()
+    private void Awake()
     {
-        int numGameSessions = FindObjectsOfType<GameSession>().Length;
 
+        int numGameSessions = FindObjectsOfType<GameSession>().Length;
+        print(numGameSessions);
         if (numGameSessions > 1)
         {
             Destroy(gameObject);
-            return;
         }
-
-        DontDestroyOnLoad(gameObject);
+        else {
+            DontDestroyOnLoad(gameObject);
+        }
     }
 
-    void Start()
-    {
+    void Start () {
+        go = gameObject;
         SceneManager.sceneLoaded += OnSceneLoaded;
-
         LivesScore.lives = playerLives;
         LivesScore.coins = coins;
-        RefreshHud();
-    }
-
-    void OnDestroy()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    public void AddToCoins(int pointsToAdd)
-    {
-        LivesScore.coins += pointsToAdd;
-        coinsPicked += pointsToAdd;
-        RefreshHud();
-    }
-
-    public void ProcessPlayerDeath()
-    {
-        LivesScore.coins -= coinsPicked;
-        coinsPicked = 0;
-        RefreshHud();
-
-        if (playerLives > 1)
+        if (livesText != null && coinsText != null)
         {
+            //print(LivesScore.coins);
+            livesText.text = LivesScore.lives.ToString();// playerLives.ToString();
+            coinsText.text = LivesScore.coins.ToString();// coins.ToString();
+        }
+
+    }
+
+    // Update is called once per frame
+    public void AddToCoins(int pointsToAdd) {
+        LivesScore.coins += pointsToAdd;//coins += pointsToAdd;
+        coinsPicked+= pointsToAdd;
+        coinsText.text = LivesScore.coins.ToString();
+    }
+
+    public void ProcessPlayerDeath() {
+        LivesScore.coins = LivesScore.coins - coinsPicked;
+        coinsText.text = LivesScore.coins.ToString();
+        coinsPicked = 0;
+
+        if (playerLives > 1) {
             TakeLife();
-            return;
         }
-
-        SceneManager.LoadScene(Levels.startingScreen);
-        ResetGameSession();
+        else {
+            SceneManager.LoadScene(Levels.startingScreen);
+            ResetGameSession();
+        }
     }
 
-    private void TakeLife()
-    {
+    private void TakeLife() {
         playerLives--;
-        LivesScore.lives = playerLives;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        RefreshHud();
+        livesText.text = playerLives.ToString();
     }
 
-    public void ResetGameSession()
-    {
+    public void ResetGameSession() {
         LivesScore.coins = coins;
         LivesScore.lives = playerLives;
         coinsPicked = 0;
-        RefreshHud();
+        coinsText.text = LivesScore.coins.ToString();
+        livesText.text = LivesScore.lives.ToString();
     }
 
-    public int GetCoins()
-    {
-        return coins;
+    public int GetCoins() {
+        print(coins.ToString());
+        return coins; //what
     }
 
-    // Kept for compatibility with existing button/event wiring.
-    public void DestroyThis()
-    {
+    public void DestroyThis() {
+        //Destroy(gameObject);
     }
 
-    private void OnSceneLoaded(Scene scene, LoadSceneMode sceneMode)
-    {
+    private void OnSceneLoaded(Scene scene, LoadSceneMode sceneMode) {
         coinsPicked = 0;
-
-        if (scene.name == "StartingScreen" || scene.name == "LevelsMenu")
-        {
-            Destroy(gameObject);
-        }
-    }
-
-    private void RefreshHud()
-    {
-        if (coinsText != null)
-        {
-            coinsText.text = LivesScore.coins.ToString();
-        }
-
-        if (livesText != null)
-        {
-            livesText.text = playerLives.ToString();
+        if (scene.name == "StartingScreen" || scene.name == "LevelsMenu") {
+            print("hi");
+            Destroy(go);
+            //Destroy(this);
         }
     }
 }
