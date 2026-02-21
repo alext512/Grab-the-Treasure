@@ -14,7 +14,7 @@ public class Player : MonoBehaviour {
     [SerializeField] float timeTillFalling = 0.5f;
     [SerializeField] int jumpTime = 10;
     [SerializeField] bool startWithFlip = false;
-    [SerializeField] float autoFlipLockTime = 0.08f; // Small debounce to prevent rapid re-flips at walls.
+    [SerializeField] float autoFlipLockTime = 0.08f; // Auto-turn lock: prevents oscillation when both wall colliders stay in contact for consecutive frames.
 
     int score;
 
