@@ -47,6 +47,35 @@ Music and sound effect tracks used in this project are CC0 and sourced from:
 ## Requirements
 - Unity 6000.2.10f1
 
+## Testing a Pull Request Locally
+
+If you want to test a pull request before merging it, use both `fetch` and `checkout`:
+
+- `git fetch` downloads commits/branches from GitHub to your local `.git` database.
+- `git checkout` switches your working files to a branch so you can run/test it.
+
+### Why both are needed
+- `fetch` **gets** the PR branch data.
+- `checkout` **opens** that branch in your working copy.
+
+### Example flow
+```bash
+# one-time setup (if origin is not configured)
+git remote add origin https://github.com/<your-username>/<your-repo>.git
+
+# download PR #12 into a local branch named pr-12
+git fetch origin pull/12/head:pr-12
+
+# switch to the downloaded branch so you can test it
+git checkout pr-12
+
+# after testing, return to your normal branch and optionally delete the temp branch
+git checkout main
+git branch -D pr-12
+```
+
+If `pull/12/head` is not found, check that the PR number is correct and that `origin` points to the correct GitHub repository.
+
 ---
 
 ## About
