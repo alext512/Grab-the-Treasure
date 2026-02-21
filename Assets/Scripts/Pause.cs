@@ -1,41 +1,24 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class Pause : MonoBehaviour {
-
-    // Use this for initialization
+public class Pause : MonoBehaviour
+{
     private void Awake()
     {
         gameObject.SetActive(false);
     }
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
-    public void PauseGame() {
-        print("pause");
-        if (gameObject.activeInHierarchy == false)
-        {
-            gameObject.SetActive(true);
-            Time.timeScale = 0;
-        }
-        else {
-            gameObject.SetActive(false);
-            Time.timeScale = 1;
-        }
+    public void PauseGame()
+    {
+        bool shouldPause = !gameObject.activeInHierarchy;
+
+        gameObject.SetActive(shouldPause);
+        Time.timeScale = shouldPause ? 0f : 1f;
     }
 
     public void LoadLevelsMenu()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 1f;
         SceneManager.LoadScene("LevelsMenu");
     }
 }
