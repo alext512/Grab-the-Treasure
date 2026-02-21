@@ -14,6 +14,7 @@ public class Player : MonoBehaviour {
     [SerializeField] float timeTillFalling = 0.5f;
     [SerializeField] int jumpTime = 10;
     [SerializeField] bool startWithFlip = false;
+    [SerializeField] float autoFlipLockTime = 0.08f;
 
     int score;
 
@@ -26,6 +27,7 @@ public class Player : MonoBehaviour {
     bool turning = false;
     bool doubleJump = true;
     bool isJumping = false;
+    float nextAutoFlipTime = 0f;
     public int jumpTimeCounter;
     public Vector2 platformSpeed = new Vector2(0f, 0f); // CHECK IF THIS IS USED
     //bool jumping = false;
@@ -149,7 +151,7 @@ public class Player : MonoBehaviour {
 
     private void Flip() {
         int allWalls = 1 << LayerMask.NameToLayer("Foreground") | 1 << LayerMask.NameToLayer("Moving Platform") | 1 << LayerMask.NameToLayer("Crumbling");
-        if (((BoxColliders[0].IsTouchingLayers(allWalls)) && BoxColliders[1].IsTouchingLayers(allWalls)) && !turning)
+        if (((BoxColliders[0].IsTouchingLayers(allWalls)) && BoxColliders[1].IsTouchingLayers(allWalls)) && !turning && Time.time >= nextAutoFlipTime)
 
             /*if ((BoxColliders[0].IsTouchingLayers(LayerMask.GetMask("Crumbling")) || BoxColliders[0].IsTouchingLayers(LayerMask.GetMask("Foreground"))||
             BoxColliders[0].IsTouchingLayers(LayerMask.GetMask("Moving Platform")))&&!turning
@@ -163,7 +165,9 @@ public class Player : MonoBehaviour {
             myAnimator.SetBool("WallSlide", false);
 
             IsFlipping();
-            Invoke("SwitchTurning", 0.01f);
+            nextAutoFlipTime = Time.time + autoFlipLockTime;
+            CancelInvoke("SwitchTurning");
+            Invoke("SwitchTurning", autoFlipLockTime);
         }
     }
 
