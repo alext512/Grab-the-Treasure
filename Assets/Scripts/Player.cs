@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] float deathkick = 5f;
     [SerializeField] float waitAfterWin = 1f;
     [SerializeField] float timeTillFalling = 0.5f;
+    [SerializeField] float autoFlipLockTime = 0.08f;
 
     // NOTE: Kept public fields for compatibility with existing scenes/prefabs.
     public bool standStill = false;
@@ -30,6 +31,9 @@ public class Player : MonoBehaviour
     bool turning = false;
     bool doubleJump = true;
     bool isJumping = false;
+    bool canAutoFlipOnCurrentWallContact = true;
+
+    float nextAutoFlipTime = 0f;
 
     BoxCollider2D[] boxColliders;
     AudioSource deathSound;
@@ -128,14 +132,27 @@ public class Player : MonoBehaviour
 
     private void Flip()
     {
-        if (IsTouchingWallFrontAndFeet() && !turning)
-        {
-            turning = true;
-            myAnimator.SetBool(WallSlideParam, false);
+        bool touchingWallFrontAndFeet = IsTouchingWallFrontAndFeet();
 
-            IsFlipping();
-            Invoke(nameof(SwitchTurning), 0.01f);
+        if (!touchingWallFrontAndFeet)
+        {
+            canAutoFlipOnCurrentWallContact = true;
+            return;
         }
+
+        if (turning || !canAutoFlipOnCurrentWallContact || Time.time < nextAutoFlipTime)
+        {
+            return;
+        }
+
+        turning = true;
+        canAutoFlipOnCurrentWallContact = false;
+        myAnimator.SetBool(WallSlideParam, false);
+
+        IsFlipping();
+        nextAutoFlipTime = Time.time + autoFlipLockTime;
+        CancelInvoke(nameof(SwitchTurning));
+        Invoke(nameof(SwitchTurning), autoFlipLockTime);
     }
 
     public void IsFlipping()
