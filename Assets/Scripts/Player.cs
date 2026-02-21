@@ -14,6 +14,7 @@ public class Player : MonoBehaviour {
     [SerializeField] float timeTillFalling = 0.5f;
     [SerializeField] int jumpTime = 10;
     [SerializeField] bool startWithFlip = false;
+    [SerializeField] float autoFlipLockTime = 0.08f;
 
     int score;
 
@@ -26,6 +27,8 @@ public class Player : MonoBehaviour {
     bool turning = false;
     bool doubleJump = true;
     bool isJumping = false;
+    float nextAutoFlipTime = 0f;
+    bool canAutoFlipOnCurrentWallContact = true;
     public int jumpTimeCounter;
     public Vector2 platformSpeed = new Vector2(0f, 0f); // CHECK IF THIS IS USED
     //bool jumping = false;
@@ -149,22 +152,27 @@ public class Player : MonoBehaviour {
 
     private void Flip() {
         int allWalls = 1 << LayerMask.NameToLayer("Foreground") | 1 << LayerMask.NameToLayer("Moving Platform") | 1 << LayerMask.NameToLayer("Crumbling");
-        if (((BoxColliders[0].IsTouchingLayers(allWalls)) && BoxColliders[1].IsTouchingLayers(allWalls)) && !turning)
+        bool touchingWallFrontAndFeet = BoxColliders[0].IsTouchingLayers(allWalls) && BoxColliders[1].IsTouchingLayers(allWalls);
 
-            /*if ((BoxColliders[0].IsTouchingLayers(LayerMask.GetMask("Crumbling")) || BoxColliders[0].IsTouchingLayers(LayerMask.GetMask("Foreground"))||
-            BoxColliders[0].IsTouchingLayers(LayerMask.GetMask("Moving Platform")))&&!turning
-            &&(BoxColliders[1].IsTouchingLayers(LayerMask.GetMask("Foreground"))
-            || BoxColliders[1].IsTouchingLayers(LayerMask.GetMask("Crumbling")) ||
-            BoxColliders[1].IsTouchingLayers(LayerMask.GetMask("Moving Platform"))))*/
+        if (!touchingWallFrontAndFeet)
         {
-//            print("flip");
-
-            turning = true;
-            myAnimator.SetBool("WallSlide", false);
-
-            IsFlipping();
-            Invoke("SwitchTurning", 0.01f);
+            canAutoFlipOnCurrentWallContact = true;
+            return;
         }
+
+        if (turning || !canAutoFlipOnCurrentWallContact || Time.time < nextAutoFlipTime)
+        {
+            return;
+        }
+
+        turning = true;
+        canAutoFlipOnCurrentWallContact = false;
+        myAnimator.SetBool("WallSlide", false);
+
+        IsFlipping();
+        nextAutoFlipTime = Time.time + autoFlipLockTime;
+        CancelInvoke("SwitchTurning");
+        Invoke("SwitchTurning", autoFlipLockTime);
     }
 
     public void IsFlipping() {
